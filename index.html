@@ -1,21 +1,416 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<title>
-EROOTH
-</title>
-</head.
+   Raziq's websites
+</head>
+
 <body>
-<h1>Hello Family</h1>
-<ol>
-	<li>Moosa</li>
-	<li>Amina</li>
-	<li>Hamsa</li>
-	<li>Raseena</li>
-	<li>Raziq</li>
-	<li>Rinshad</li>
-	<li>Razeen</li>
-	<li>Raabih</li>
-</ol>
-<A href="https://wa.me/919747937812" target="_blank">chat with me on whatsapp</A>
+   <!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Raziq Web Solutions</title>
+
+<style>
+
+/* Reset */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+/* Navigation */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#0f172a;
+color:white;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav h1{
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:16px;
+}
+
+/* Hero Section */
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+color:white;
+padding:20px;
+
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:15px;
+animation:fadeUp 1s ease;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+animation:fadeUp 2s ease;
+}
+
+.hero button{
+
+margin-top:25px;
+
+padding:15px 35px;
+
+background:#25D366;
+
+border:none;
+
+color:white;
+
+font-size:18px;
+
+border-radius:6px;
+
+cursor:pointer;
+
+animation:fadeUp 3s ease;
+
+}
+
+/* Services */
+
+.services{
+
+padding:80px 40px;
+
+text-align:center;
+
+background:#f1f5f9;
+
+}
+
+.services h2{
+
+font-size:32px;
+
+margin-bottom:50px;
+
+}
+
+/* Cards */
+
+.cards{
+
+display:flex;
+
+gap:30px;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+width:260px;
+
+border-radius:10px;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.card img{
+
+width:80px;
+
+margin-bottom:15px;
+
+}
+
+/* Contact */
+
+.contact{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+.contact h2{
+
+margin-bottom:20px;
+
+font-size:30px;
+
+}
+
+.contact p{
+
+margin-bottom:25px;
+
+}
+
+/* Button */
+
+.contact a{
+
+background:#25D366;
+
+color:white;
+
+padding:15px 35px;
+
+text-decoration:none;
+
+border-radius:6px;
+
+font-size:18px;
+
+}
+
+/* Footer */
+
+footer{
+
+background:#0f172a;
+
+color:white;
+
+text-align:center;
+
+padding:25px;
+
+margin-top:40px;
+
+}
+
+/* Floating WhatsApp */
+
+.whatsapp-float{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+background:#25D366;
+
+color:white;
+
+font-size:28px;
+
+width:60px;
+
+height:60px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+border-radius:50%;
+
+text-decoration:none;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+/* Animations */
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h1>Raziq Web Solutions</h1>
+
+<div>
+
+<a href="#">Home</a>
+
+<a href="#services">Services</a>
+
+<a href="#contact">Contact</a>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h2>Professional Website Development</h2>
+
+<p>
+
+If you want a modern, fast and professional website for your business or personal brand,
+
+I can build it for you.
+
+</p>
+
+<a href="https://wa.me/919747937812?text=Hello%20I%20want%20a%20website" target="_blank">
+
+<button>Contact on WhatsApp</button>
+
+</a>
+
+</section>
+
+<section class="services" id="services">
+
+<h2>My Services</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+
+<h3>Website Design</h3>
+
+<p>Modern responsive websites built with clean design.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png">
+
+<h3>Business Websites</h3>
+
+<p>Professional websites for businesses and services.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/9068/9068754.png">
+
+<h3>Fast Delivery</h3>
+
+<p>High quality websites delivered quickly.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Need a Website?</h2>
+
+<p>
+
+If you want a professional website for yourself or your business,
+
+contact me directly on WhatsApp.
+
+</p>
+
+<a href="https://wa.me/919747937812?text=Hello%20I%20want%20a%20website">
+
+Chat on WhatsApp
+
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Raziq Web Solutions</p>
+
+</footer>
+
+<a class="whatsapp-float"
+
+href="https://wa.me/919747937812?text=Hello%20I%20want%20a%20website"
+
+target="_blank">
+
+💬
+
+</a>
+
 </body>
+
+</html>
+
+</body>
+
 </html>
